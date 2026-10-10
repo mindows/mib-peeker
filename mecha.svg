@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  A mecha head peeking up from behind a window's top edge, hands gripping it.
+  Drawn in a 160x150 space with the ledge at y = 134, then scaled into the shared
+  200x120 frame (ledge at y = 70) and pushed to its right end. The head is
+  cut flat there, so it reads as rising from behind the window.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120" width="200" height="120">
+  <g transform="translate(112.6 -5) scale(0.56)">
+  <g stroke="#1c1a24" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+
+    <!-- side vents -->
+    <path d="M 18 86 L 32 82 L 32 134 L 18 134 Z" fill="#b9c0d0"/>
+    <path d="M 142 86 L 128 82 L 128 134 L 142 134 Z" fill="#b9c0d0"/>
+    <path d="M 22 96 L 28 95 M 22 106 L 28 105 M 22 116 L 28 115 M 138 96 L 132 95 M 138 106 L 132 105 M 138 116 L 132 115"
+          fill="none" stroke-width="3"/>
+
+    <!-- helmet -->
+    <path d="M 30 134 L 30 82 Q 30 56 54 50 L 106 50 Q 130 56 130 82 L 130 134 Z" fill="#eef1f6"/>
+    <path d="M 36 128 L 36 84 Q 36 66 48 60" fill="none" stroke="#c9cfdb" stroke-width="5"/>
+
+    <!-- crest -->
+    <path d="M 68 52 L 68 26 L 80 14 L 92 26 L 92 52 Z" fill="#eef1f6"/>
+    <path d="M 74 29 L 86 29 L 86 41 L 74 41 Z" fill="#a5161f" stroke-width="4"/>
+
+    <!-- V-fin, in front of the helmet; its root hides under the red forehead piece -->
+    <path d="M 76 52 L 20 16 L 72 86 Z" fill="#f7c843"/>
+    <path d="M 84 52 L 140 16 L 88 86 Z" fill="#f7c843"/>
+    <path d="M 25 22 L 72 86 L 75 62 Z" fill="#d8961f" stroke="none"/>
+    <path d="M 135 22 L 88 86 L 85 62 Z" fill="#d8961f" stroke="none"/>
+
+    <!-- cartoon peeking eyes -->
+    <circle cx="47" cy="74" r="9" fill="#f5b942" stroke-width="4"/>
+    <circle cx="113" cy="74" r="9" fill="#f5b942" stroke-width="4"/>
+    <circle cx="48" cy="76" r="4" fill="#1c1a24" stroke="none"/>
+    <circle cx="112" cy="76" r="4" fill="#1c1a24" stroke="none"/>
+
+    <!-- visor with angled eyes -->
+    <path d="M 40 94 L 120 94 L 114 114 L 46 114 Z" fill="#2a2d3d"/>
+    <path d="M 46 98 L 72 104 L 68 111 L 50 110 Z" fill="#ffd54a" stroke="none"/>
+    <path d="M 114 98 L 88 104 L 92 111 L 110 110 Z" fill="#ffd54a" stroke="none"/>
+
+    <!-- red forehead piece -->
+    <path d="M 68 52 L 92 52 L 98 72 L 80 100 L 62 72 Z" fill="#e0303a"/>
+    <path d="M 71 58 L 80 58 L 76 72 L 68 70 Z" fill="#ff7a7f" stroke="none"/>
+
+    <!-- mouth plate -->
+    <path d="M 54 116 L 106 116 L 100 134 L 60 134 Z" fill="#c9cfdb"/>
+    <path d="M 68 122 L 80 126 L 92 122 M 68 129 L 80 133 L 92 129" fill="none" stroke-width="3"/>
+
+    <!-- the ledge line the head is cut by -->
+    <path d="M 24 134 L 136 134" fill="none"/>
+
+    <!-- hands gripping the edge -->
+    <path d="M 14 122 Q 14 116 22 116 L 46 116 Q 52 116 52 122 L 52 144 Q 52 148 47 148 L 19 148 Q 14 148 14 144 Z"
+          fill="#eef1f6"/>
+    <path d="M 108 122 Q 108 116 114 116 L 138 116 Q 146 116 146 122 L 146 144 Q 146 148 141 148 L 113 148 Q 108 148 108 144 Z"
+          fill="#eef1f6"/>
+    <path d="M 24 134 L 24 147 M 33 134 L 33 147 M 42 134 L 42 147 M 118 134 L 118 147 M 127 134 L 127 147 M 136 134 L 136 147"
+          fill="none" stroke-width="3"/>
+  </g>
+  </g>
+</svg>
